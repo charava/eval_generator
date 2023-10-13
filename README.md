@@ -1,36 +1,30 @@
-# sean's eval generator
-
-Created as a part of Software Engineering class
-
-Charlotte, Aryan, Diego
+# EvalGen
+### A seamless "fill-in-the-blank" interface to make writing student evals faster. 
 
 
-# Project Name
-
-Brief description of your project goes here.
+Built by Charlotte, Aryan, Diego - Software Engineering Class @ Nueva 2023 - for Sean's SOM Class evals. 
 
 ## Table of Contents
 
 - [Description](#description)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
-- [Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
-- [Appendix (Optional)](#appendix-optional)
 
 ## Description
 
-Provide a more detailed description of your project. Explain its purpose, what problems it solves, and its main features.
+Writing evals can be a major time-suck. We wanted to create a super simple interface for writing evals...that actually minimizes the time one will have to spend _writing_. After interviewing Sean, it was apparent that he had a very particular way he liked to write his evals and already had specific content he tended to recycle. Rather than have him manually copy-and-paste to reuse parts of other evals when crafting evals, we want him to be able to just _fill in the blank_. 
 
-## Installation
+There are four Eval templates that Sean can toggle between: Fall 9th, Spring 9th, Fall 11th, and Spring 11th. Each Eval is specific to that grade and time of year, and has unique "fill-in-the-blank" inputs. After writing his eval, he can simply click "Copy to Clipboard" to retrieve his crafted eval. 
 
-Provide step-by-step instructions on how to install and set up your project. Include prerequisites, dependencies, and any specific setup instructions.
+## Usage 
 
-```bash
-# Example installation command
-npm install my-project
+Go check out the prototype: www.eval-gen.vercel.app 
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Charlotte - charosa@nuevaschool.org
