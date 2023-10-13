@@ -19,7 +19,7 @@ There are four Eval templates that Sean can toggle between: Fall 9th, Spring 9th
 
 ## Usage 
 
-Go check out the prototype: https://www.eval-gen.vercel.app/
+Go check out the prototype: [https://www.eval-gen.vercel.app/](https://eval-gen.vercel.app/)
 
 
 ## License
