@@ -27,4 +27,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Charlotte - charosa@nuevaschool.org
+charosa@nuevaschool.org
+
+## Here's some ideas for future exploration: 
+
+- Connect a database so that Sean can save his Evals
+- Rather than input direct sentences, input bullet points
+- Use generative AI to pass each eval through for paraphrasing
+- Add a note-taking UI as well that syncs to a databse
+
