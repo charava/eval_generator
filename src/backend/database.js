@@ -1,3 +1,6 @@
+// DATABASE IS CURRENTLY NOT USED!!!
+
+
 const mongoose = require('mongoose');
 const server = '127.0.0.1:27017';
 const database = 'eval_db';      // Since we made our schema into a model, this should be created

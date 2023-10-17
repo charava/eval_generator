@@ -87,3 +87,10 @@ li.active {
 li:hover {
   color: #ffeb3b; /* Change the color on hover */
 }
+
+
+.input-field {
+  width: 100%; /* Adjust the width as needed */
+  padding: 10px; /* Adjust the padding as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+}

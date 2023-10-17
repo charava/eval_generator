@@ -144,6 +144,7 @@ class Eleventh_Fall_Eval_Page extends Component {
               placeholder='enter their presentation topic here'
               value={this.state.EmotionPresTopic}
               onChange={this.setEmotionPresTopic}
+              className="input_field"
             />
        
         </label>
@@ -155,6 +156,7 @@ class Eleventh_Fall_Eval_Page extends Component {
               placeholder='describe'
               value={this.state.EmotionPresFeedback}
               onChange={this.setEmotionPresFeedback}
+              className="input_field"
             />
         </label>
 
@@ -165,6 +167,7 @@ class Eleventh_Fall_Eval_Page extends Component {
               placeholder='describe'
               value={this.state.EmotionPresHighlight}
               onChange={this.setEmotionPresHighlight}
+              className="input_field"
           />
             
         </label>
@@ -176,6 +179,7 @@ class Eleventh_Fall_Eval_Page extends Component {
               placeholder='describe their performance here'
               value={this.state.EmotionPresActivity}
               onChange={this.setEmotionPresActivity}
+              className="input_field"
             />
         </label>
 
@@ -186,6 +190,7 @@ class Eleventh_Fall_Eval_Page extends Component {
               placeholder='(optional critique)'
               value={this.state.optionalEmotionPresCritique}
               onChange={this.setoptionalEmotionPresCritique}
+              className="input_field"
             />
              . I was proud of how, this semester, you consistently showed up to class with a positive outlook, high energy, and eagerness to participate. 
         Overall, you did a great job in SOM, and I enjoyed being your teacher this semester!

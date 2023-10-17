@@ -10,3 +10,7 @@ def testpost():
     prompt = request.args.get('prompt')
     response = eval_writer.prompt(prompt)
     return response
+
+
+if __name__ == '__main__':
+    app.run()

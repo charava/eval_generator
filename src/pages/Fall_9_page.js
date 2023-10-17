@@ -129,9 +129,10 @@ class Ninth_Fall_Eval_Page extends Component {
         I loved your reflection on 
             <input
               type="text"
-              placeholder='enter their presentation topic here'
+              placeholder='enter their reflection here'
               value={this.state.reflection}
               onChange={this.setReflection}
+              className="input_field"
             />
        
         </label>
@@ -144,6 +145,7 @@ class Ninth_Fall_Eval_Page extends Component {
               placeholder='describe'
               value={this.state.AgreeStatement}
               onChange={this.setAgreeStatement}
+              className="input_field"
             />
         </label>
 
@@ -155,6 +157,7 @@ class Ninth_Fall_Eval_Page extends Component {
               placeholder='describe'
               value={this.state.hope}
               onChange={this.setHope}
+              className="input_field"
 
           />
             Finally, I was proud of you this semester to consistently show up to class with a positive outlook, high energy, and eagerness to participate. 
