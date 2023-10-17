@@ -17,6 +17,12 @@ Writing evals can be a major time-suck. We wanted to create a super simple inter
 
 There are four Eval templates that Sean can toggle between: Fall 9th, Spring 9th, Fall 11th, and Spring 11th. Each Eval is specific to that grade and time of year, and has unique "fill-in-the-blank" inputs. After writing his eval, he can simply click "Copy to Clipboard" to retrieve his crafted eval. 
 
+## Paraphrasing AI
+
+Along with a simpler interface for evals, we also wanted to create a tool for paraphrasing the eval in order to make each eval unique. On the website, the button on the bottom of the template runs the eval through LLama LLM to produce a paraphrased, unique eval. 
+
+We used Replicate API [https://replicate.com/] to connect the Llama LLM to our program. The LLM API folder connects Python to our website using Flask and generates the new eval using our prompt to Llama in LLM API/api_tester.py.
+
 ## Usage 
 
 Go check out the prototype: [https://www.eval-gen.vercel.app/](https://eval-gen.vercel.app/)
