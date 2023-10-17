@@ -3,8 +3,12 @@ import Eleventh_Fall_Eval_Page from './pages/Fall_11_page.js';
 import Eleventh_Spring_Eval_Page from './pages/Spring_11_page';
 import Ninth_Fall_Eval_Page from './pages/Fall_9_page';
 import Ninth_Spring_Eval_Page from './pages/Spring_9_page';
-
 import React, { Component } from "react";
+
+
+// the App component actually takes all of the four pages 
+// and puts it into a navigation format
+
 
 class App extends Component {
   constructor() {

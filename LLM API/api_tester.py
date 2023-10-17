@@ -1,7 +1,7 @@
 import requests
 
 
-# how to run the LLM API: 
+# HOW TO RUN THE LLM API: 
 # make sure to install Flask
 # run app.py
 # then run api_tester.py in a seperate terminal

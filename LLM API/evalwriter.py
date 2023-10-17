@@ -2,6 +2,7 @@ import replicate
 from dotenv import load_dotenv
 import os
 
+# MAKE SURE TO HAVE Replicate and dotenv installed
 
 class EvalWriter:
     def __init__(self):
