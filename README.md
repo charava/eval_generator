@@ -7,7 +7,7 @@ Built by Charlotte, Aryan, Diego - Software Engineering Class @ Nueva 2023 - for
 ## Table of Contents
 
 - [Description](#description)
-- [Paraphrasing AI](#paraphrasing_AI)
+- [Paraphrasing AI](#paraphrasing-AI)
 - [Usage](#usage)
 - [Note for Developers](#for_all_you_developers_out_there...)
 - [Contact](#contact)
