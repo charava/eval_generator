@@ -11,7 +11,7 @@ Built by Charlotte, Aryan, Diego - Software Engineering Class @ Nueva 2023 - for
 - [Usage](#usage)
 - [Note for Developers](#for-all-you-developers-out-there...)
 - [Contact](#contact)
-- [Ideas for Future Exploration](#here's-some-ideas-for-future-exploration:)
+- [Ideas for Future Exploration](#ideas-for-future-exploration)
 - [License](#license)
 
 
@@ -34,7 +34,7 @@ Go check out the prototype: [https://www.eval-gen.vercel.app/](https://eval-gen.
 
 
 ## For all you developers out there...
-Poke your head into the code. We've left quite a few comments throughout to explain what the code is doing and what you should have installed to ensure the code runs. Check out Contact if you have questions and be sure to look through Here's some ideas for future exploration below.
+Poke your head into the code. We've left quite a few comments throughout to explain what the code is doing and what you should have installed to ensure the code runs. [Contact](#contact) us if you have questions and be sure to look through [Ideas for Future Exploration](#ideas-for-future-exploration).
 
 This React app was created using Create React App.
 
@@ -44,7 +44,7 @@ charosa@nuevaschool.org
 arymehr@nuevaschool.org
 dieagus@nuevaschool.org
 
-## Here's some ideas for future exploration:
+## Ideas for Future Exploration
 
 - Connect a database so that Sean can save his Evals
 - Rather than input direct sentences, input bullet points
