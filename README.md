@@ -19,9 +19,16 @@ Built by Charlotte, Aryan, Diego - Software Engineering Class @ Nueva 2023 - for
 
 1) [Install Node](https://nodejs.org/en/download)
 
+2) Run the following in your terminal
+
 ```bash
 git clone https://github.com/charava/eval_generator.git
+cd eval_generator
+npm install react-scripts
+npm start
 ```
+3) Access the site at http://localhost:3000/
+
 
 ## Description
 
