@@ -1,4 +1,14 @@
 import React, { Component } from "react";
+import LLM_output from './LLM_button.js';
+
+
+// WHAT DOES THIS FILE DO?
+// This is one of the pages on the website
+// since this is a mad-libs style eval generator, this page renders a paragraph
+// with various inputs (drop downs and text) scattered throughout
+// that then gets stored in the state variable 'eval'
+// We also added the feature, copy to clipboard, to allow Sean to easily
+// move his generated evals to a spreadsheet or paste it into the Nexus app
 
 class Ninth_Fall_Eval_Page extends Component {
   constructor() {
@@ -13,6 +23,7 @@ class Ninth_Fall_Eval_Page extends Component {
       eval: "_________, it was an absolute pleasure teaching you _________. I was proud of you and your classmates for creating a close-knit, open, and safe environment to explore sleep science, drug education, sex education, and various perspectives of the Nueva experience. Additionally, I was pleased with your engagement in learning about strategies to cope with procrastination and perfectionism and your reflection on what resilience means to you. I loved your reflection on _________. I agree that _________. I hope that you continue to _________. Finally, I was proud of you this semester to consistently show up to class with a positive outlook, high energy, and eagerness to participate. All in all, you did a great job in SOM, and it was a pleasure teaching you this semester."
     };
   }
+
 
   updateEval = () => {
 
@@ -76,18 +87,10 @@ class Ninth_Fall_Eval_Page extends Component {
     this.setState({ hope: event.target.value }, this.updateEval);
   };
 
-//   copied: false,
-//   name: "",
-//   isTeachAgain: "",
-//   openSessionMesage: "",
-//   mhFeedback: "",
-//   EmotionPresTopic: "",
-//   EmotionPresFeedback: "",
-//   EmotionPresHighlight: "",
-//   EmotionPresActivity: "",
-//   optionalEmotionPresCritique: "",    
+  
 
   render() {
+    console.log(LLM_output)
     return (
       <div className="evalBody">
         <h2>9th Grade Fall Semester Template</h2>

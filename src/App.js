@@ -6,7 +6,8 @@ import Ninth_Spring_Eval_Page from './pages/Spring_9_page';
 import React, { Component } from "react";
 
 
-// the App component actually takes all of the four pages 
+// WHAT DOES THIS FILE DO?
+// The App component actually takes all of the four pages 
 // and puts it into a navigation format
 
 

@@ -1,5 +1,14 @@
 import React, { Component } from "react";
 
+// WHAT DOES THIS FILE DO?
+// This is another one of the pages on the website
+// since this is a mad-libs style eval generator, this page renders a paragraph
+// with various inputs (drop downs and text) scattered throughout
+// that then gets stored in the state variable 'eval'
+// We also added the feature, copy to clipboard, to allow Sean to easily
+// move his generated evals to a spreadsheet or paste it into the Nexus app
+
+
 class Eleventh_Spring_Eval_Page extends Component {
   constructor() {
     super();
