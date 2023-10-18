@@ -17,6 +17,8 @@ Built by Charlotte, Aryan, Diego - Software Engineering Class @ Nueva 2023 - for
 
 ## Installation
 
+[Install Node](https://nodejs.org/en/download)
+
 ```bash
 git clone https://github.com/charava/eval_generator.git
 ```
