@@ -11,7 +11,7 @@ Built by Charlotte, Aryan, Diego - Software Engineering Class @ Nueva 2023 - for
 - [Usage](#usage)
 - [Note for Developers](#for-all-you-developers-out-there...)
 - [Contact](#contact)
-- [Ideas for Future Exploration](#here's-some-ideas-for-future-exploration: )
+- [Ideas for Future Exploration](#here's-some-ideas-for-future-exploration:)
 - [License](#license)
 
 
@@ -44,7 +44,7 @@ charosa@nuevaschool.org
 arymehr@nuevaschool.org
 dieagus@nuevaschool.org
 
-## Here's some ideas for future exploration: 
+## Here's some ideas for future exploration:
 
 - Connect a database so that Sean can save his Evals
 - Rather than input direct sentences, input bullet points
