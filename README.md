@@ -6,6 +6,7 @@ Built by Charlotte, Aryan, Diego - Software Engineering Class @ Nueva 2023 - for
 
 ## Table of Contents
 
+- [Installation](#description)
 - [Description](#description)
 - [Paraphrasing AI](#paraphrasing-AI)
 - [Usage](#usage)
@@ -14,6 +15,11 @@ Built by Charlotte, Aryan, Diego - Software Engineering Class @ Nueva 2023 - for
 - [Ideas for Future Exploration](#ideas-for-future-exploration)
 - [License](#license)
 
+## Installation
+
+```bash
+git clone https://github.com/charava/eval_generator.git
+```
 
 ## Description
 
