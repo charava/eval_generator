@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import LLM_output from './LLM_button.js';
 
 
 // WHAT DOES THIS FILE DO?
@@ -90,7 +89,6 @@ class Ninth_Fall_Eval_Page extends Component {
   
 
   render() {
-    console.log(LLM_output)
     return (
       <div className="evalBody">
         <h2>9th Grade Fall Semester Template</h2>
