@@ -1,13 +1,11 @@
-import llama_cpp
+from llama_cpp import Llama
 import sys
 
-PATH = 'model'  # folder path
-
-# MAKE SURE TO HAVE Replicate and dotenv installed
-
 class EvalWriter:
-    def __init__(self, model_name):
-        self.MODEL_PATH = f'{PATH}/{model_name}'
+    def __init__(self, path):
+        self.PATH = path
+        self.llama = Llama(model_path=self.path)
 
-    def prompt(self, prompt):
-        pass
+    def prompt(self, prompt, args):
+        return self.llama(prompt, **args)
+    
