@@ -29,7 +29,7 @@ class Test_Page extends Component {
           I hope that you continue to ${this.state.hope}.
           Finally, I was proud of you this semester to consistently show up to class with a positive outlook, high energy, and eagerness to participate. 
           All in all, you did a great job in SOM, and it was a pleasure teaching you this semester.
-      `.replace(/\\n/g,'\n');
+      `;
       
       const updatedEval = paragraph
         .replace("${name}", this.state.name)
@@ -171,7 +171,7 @@ class Test_Page extends Component {
 
           <div>
             <button onClick={this.saveToFile}>Save to File</button>
-            {this.state.copied && <p>The eval has been downloaded!</p>}
+            {this.state.saved && <p>The eval has been downloaded!</p>}
           </div>
         </div>
         
