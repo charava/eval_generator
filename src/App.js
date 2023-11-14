@@ -3,6 +3,7 @@ import Eleventh_Fall_Eval_Page from './pages/Fall_11_page.js';
 import Eleventh_Spring_Eval_Page from './pages/Spring_11_page';
 import Ninth_Fall_Eval_Page from './pages/Fall_9_page';
 import Ninth_Spring_Eval_Page from './pages/Spring_9_page';
+import Test_Page from './pages/Test_Page.js';
 import React, { Component } from "react";
 
 
@@ -58,6 +59,12 @@ class App extends Component {
             >
               Spring 11th
             </li>
+            <li
+              className={currentPage === 'Test Page' ? 'active' : ''}
+              onClick={() => this.handlePageChange('Test Page')}
+            >
+              Test
+            </li>
           </ul>
         </nav>
 
@@ -66,6 +73,7 @@ class App extends Component {
         {currentPage === 'Spring 9th Grade' ? <Ninth_Spring_Eval_Page /> : null}
         {currentPage === 'Fall 11th Grade' ? <Eleventh_Fall_Eval_Page /> : null}
         {currentPage === 'Spring 11th Grade' ? <Eleventh_Spring_Eval_Page /> : null}
+        {currentPage === 'Test Page' ? <Test_Page /> : null}
         
       </div>
     );
