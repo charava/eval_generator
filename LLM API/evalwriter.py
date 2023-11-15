@@ -1,21 +1,11 @@
-import replicate
-from dotenv import load_dotenv
-import os
-
-# MAKE SURE TO HAVE Replicate and dotenv installed
+from llama_cpp import Llama
+import sys
 
 class EvalWriter:
-    def __init__(self):
-        load_dotenv()
-        self.REPLICATE_API_TOKEN = os.getenv('REPLICATE_API_TOKEN')
-        self.client = replicate.Client(api_token=self.REPLICATE_API_TOKEN)
-    
-    def prompt(self, prompt):
-        output = self.client.run(
-            "meta/llama-2-70b-chat:2c1608e18606fad2812020dc541930f2d0495ce32eee50074220b87300bc16e1",
-            input={'prompt': prompt}
-        )
-        result = [item for item in output]
+    def __init__(self, path):
+        self.PATH = path
+        self.llama = Llama(model_path=self.path)
 
-        print(prompt, '\n\n')
-        return ''.join(result)
+    def prompt(self, prompt, args):
+        return self.llama(prompt, **args)
+    
